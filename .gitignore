@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Downloaded datasets
+data/
+*.parquet
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
